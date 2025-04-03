@@ -2,7 +2,10 @@
 
 Bienvenue dans **DomForat**, un plugin pour Chrome (ou autres navigateurs Chromium) permettant d’afficher rapidement et simplement la liste de domaines expirés disponibles, à partir d’un simple fichier JSON. Ce projet est conçu pour aider les référenceurs, développeurs et entrepreneurs à repérer des noms de domaines libres qui peuvent être réutilisés.
 
+> **Lien Chrome Store** : [DomfoRat](https://chromewebstore.google.com/detail/domforat-trouver-des-doma/popnjpklpgpjipdhlgggphdalhffmkhi?hl=fr)
+
 > **Site du développeur** : [leclerc-web.fr](https://leclerc-web.fr/)
+
 > **Site associé** : [domforat.com](https://domforat.com/)
 
 ---
