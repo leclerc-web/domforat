@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Domaines</title>
+  <link rel="stylesheet" href="popup.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>🐀️ Domaines dispos</h1>
+    
+    <!-- Menu d'onglets -->
+    <div class="tabs">
+      <button class="tab-button active" data-target="domaines">Domaines</button>
+      <button class="tab-button" data-target="outils">Outils</button>
+      <button class="tab-button" data-target="infos">Infos</button>
+    </div>
+    
+    <!-- Onglet "Domaines" -->
+    <div id="domaines" class="tab-content active">
+      <div id="domain-list" class="domain-list">Chargement...</div>
+    </div>
+    
+    <!-- Onglet "Outils" -->
+    <div id="outils" class="tab-content">
+      <div class="tools-container">
+        
+        <!-- Sous-onglets "Outils" -->
+        <div class="sub-tabs">
+          <button class="sub-tab-button active" data-subtarget="sub-contenu">Contenu</button>
+          <button class="sub-tab-button" data-subtarget="sub-netlinking">Netlinking</button>
+          <button class="sub-tab-button" data-subtarget="sub-hebergement">Hébergement</button>
+          <button class="sub-tab-button" data-subtarget="sub-extension">Extension</button>
+        </div>
+
+        <!-- Contenu du sous-onglet "Contenu" -->
+        <div id="sub-contenu" class="sub-tab-content active">
+          <p>Utilisez <strong>WiseWand</strong> pour générer du contenu SEO de haute qualité.</p>
+          <ul>
+            <li>
+              <span class="tool-icon">🪄</span> 
+              <strong>WiseWand</strong>  
+              <a href="https://app.wisewand.ai?fpr=connexion" target="_blank">
+                Générateur IA
+              </a>
+              <p class="tool-desc">
+                Rédigez rapidement des articles optimisés.
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Contenu du sous-onglet "Netlinking" -->
+        <div id="sub-netlinking" class="sub-tab-content">
+          <p><strong>Linkuma</strong> vous fournit des backlinks de qualité à bas prix.</p>
+          <ul>
+            <li>
+              <span class="tool-icon">🔗</span>
+              <strong>Linkuma</strong>
+              <a href="https://app.linkuma.com/register?fpr=0097u" target="_blank">
+                Backlinks pas chers
+              </a>
+              <p class="tool-desc">
+                Renforcez l’autorité de vos domaines expirés.
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Contenu du sous-onglet "Hébergement" -->
+        <div id="sub-hebergement" class="sub-tab-content">
+          <p>Hébergez autant de domaines expirés que vous voulez chez <strong>O2switch</strong>.</p>
+          <ul>
+            <li>
+              <span class="tool-icon">⚙️</span>
+              <strong>O2switch</strong>
+              <a href="https://clients.o2switch.fr/offre-hebergement-unique?sc=da354ceb15" target="_blank">
+                Illimité
+              </a>
+              <p class="tool-desc">
+                Performances optimales et gestion facile.
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Contenu du sous-onglet "Extension" -->
+        <div id="sub-extension" class="sub-tab-content">
+          <p>Notre <strong>Extension Chrome</strong> vous permet de suivre et copier vos domaines expirés en un clic.</p>
+          <p>Accès direct aux outils SEO, interface simple, et plus à venir.</p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Onglet "Infos" -->
+    <div id="infos" class="tab-content">
+      <div class="info-container">
+        <h2>À propos des domaines expirés</h2>
+        <p>
+          Un domaine expiré est un nom de domaine abandonné par son ancien propriétaire.  
+          Souvent, ces domaines conservent du trafic, un historique ou des backlinks existants.
+        </p>
+        <p>
+          L’avantage ? Vous pouvez les « relancer » pour profiter de leur autorité SEO et potentiellement
+          récupérer du trafic résiduel, au lieu de partir de zéro avec un tout nouveau nom de domaine.
+        </p>
+        <p>
+          Les <strong>domaines expirés free</strong> vous donnent l’opportunité d’acquérir rapidement
+          de la visibilité, surtout si le domaine avait un trafic récent ou de bons backlinks.
+        </p>
+        <p>
+          Cette extension vous permet de visualiser <strong>en un clin d’œil</strong> tous
+          les domaines expirés « libres » depuis un simple fichier JSON,
+          afin que vous puissiez les enregistrer facilement !
+        </p>
+      </div>
+    </div>
+
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "extensionName": {
+    "message": "Expired Domains Plugin",
+    "description": "Name of the extension in English"
+  },
+  "extensionDescription": {
+    "message": "Displays available expired domains from a JSON file",
+    "description": "Short description of the extension in English"
+  }
+}

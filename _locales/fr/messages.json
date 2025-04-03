@@ -1,0 +1,10 @@
+{
+  "extensionName": {
+    "message": "Plugin de domaines expirés",
+    "description": "Nom de l'extension en français"
+  },
+  "extensionDescription": {
+    "message": "Affiche les domaines expirés disponibles à partir d'un fichier JSON",
+    "description": "Brève description de l'extension en français"
+  }
+}
